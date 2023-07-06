@@ -12,7 +12,7 @@ function App() {
       <Tabs setLoader={setLoader}/>
       <RecipeLists setLoader={setLoader}/>
       {loader && <div className='loader'>
-        <div className='set spinner'></div>
+        <div className='spinner'></div>
         </div>}
     </div>
   );
