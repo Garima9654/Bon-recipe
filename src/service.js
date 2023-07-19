@@ -15,6 +15,7 @@ export const fetchData = async (defaultQuery) => {
     }
     catch(e) {
         console.log(e,'something went wrong')
+        onsole.log(e,'something went wrong')
         return e
     }
 }
