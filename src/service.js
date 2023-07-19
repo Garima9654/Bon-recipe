@@ -26,6 +26,11 @@ export const fetchTabData = async (defaultQuery) => {
         const response = await data.json();
         return response;
     }
+catch(e) {
+        console.log(e,'something went wrong')
+        return e
+    }
+}
     catch(e) {
         console.log(e,'something went wrong')
         return e
