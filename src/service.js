@@ -24,6 +24,7 @@ export const fetchTabData = async (defaultQuery) => {
     try {
         const data = await fetch(`https://api.edamam.com/api/recipes/v2/${defaultQuery}?type=public&app_id=${app_id}&app_key=${app_key}`);
         const response = await data.json();
+        const response = await data.json();
         return response;
     }
 
