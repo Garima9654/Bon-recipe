@@ -8,7 +8,7 @@ function App() {
   const [loader,setLoader] = useState(true)
   return (
     <div className="main">
-      <Header />
+      <Header /> 
       <Tabs setLoader={setLoader}/>
       <RecipeLists setLoader={setLoader}/>
       {loader && <div className='loader'>
