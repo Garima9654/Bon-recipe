@@ -38,7 +38,7 @@ function RecipeLists(props) {
                 data && data.hits.map((item,index)=> (
                     <div key={index} className='flexItem'>
                         <div className='img-wrapper'>
-                            <img src={item.recipe.image} alt={item.recipe.label} />
+                            <img src={item.recipe.images} alt={item.recipe.label} />
                         </div>
                         <p>{item.recipe.label}</p>
                     </div>
