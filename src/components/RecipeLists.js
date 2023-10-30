@@ -23,7 +23,7 @@ function RecipeLists(props) {
   return (
     <div className='container'>
         <div className='heading-line'>
-            <strong>Search Recipes</strong>
+            <strong>Search Recipes</light>
             <div className='input-wrapper' >
                 <input 
                     onChange={(e)=> setSearchedTearm(e.target.value)} 
